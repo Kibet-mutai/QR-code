@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    font-display: swap;
+    font-weight: 100 900;
+    src: url('(https://fonts.google.com/specimen/Outfit)') 
+         format('truetype');
+  }
+body {
+    background-color: #6699CC;
+    background: lightgray;
+}
+.Qr-section {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (min-width: 300px) {
+    .Qr-section {
+      min-height: 100vh;
+      display: flex;
+      place-items: center;
+    }
+  }
+.Qr-card {
+    width: 280px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(0 0 0 / 0.2);
+    align-content: start;
+}
+img {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    height: auto;
+    width: 250px;
+    border-radius: 25px;
+}
+p {
+    font-size: 15px;
+    font-family: var(--font-family-default);
+    font-weight: 400, 700;
+    padding: 10px;
+}
+h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
